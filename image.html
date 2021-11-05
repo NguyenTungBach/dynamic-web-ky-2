@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/css.css">
+<body class="w3-black">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<div w3-include-html="./layout/nav.html"></div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">My Image</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+                <img src="img/Cat.jpg" style="width:100%">
+                <img src="img/thanos.png" style="width:100%">
+                <img src="img/Smile.png" style="width:100%">
+                <img src="img/Fun.png" style="width:100%">
+            </div>
+
+            <div class="w3-half">
+                <img src="img/Break.gif" style="width:100%">
+                <img src="img/Hate.png" style="width:100%">
+                <img src="img/Athea.png" style="width:100%">
+                <img src="img/LenDan.jpg" style="width:100%">
+            </div>
+            <!-- End photo grid -->
+        </div>
+        <!-- End Portfolio Section -->
+    </div>
+
+    <div w3-include-html="./layout/footer.html"></div>
+
+    <!-- END PAGE CONTENT -->
+</div>
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<script>w3IncludeHTML();</script>
+</body>
+</html>
