@@ -21,9 +21,9 @@
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-        <a href="home.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-        <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-        <a href="image.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-        <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        <a href="home.php" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="about.php" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="image.php" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+        <a href="contact.php" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
     </div>
 </div>

@@ -12,25 +12,56 @@
 <?php
 include 'layout/nav.php';
 ?>
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-        <a href="home.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-        <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-        <a href="image.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-        <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-    </div>
-</div>
 
 <!-- Page Content -->
+<!-- Page Content -->
 <div class="w3-padding-large" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm The Man From No Where.</span></h1>
-        <p>Photographer and Meme Designer.</p>
-        <p>Sản phẩm được học hỏi từ W3 School, không được dùng vào mục đích kinh doanh</p>
-        <img src="img/dog.jpg" alt="boy" class="w3-image" width="336" height="480">
-    </header>
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">My Image</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half">
+                <img src="img/Cat.jpg" style="width:100%">
+                <img src="img/thanos.png" style="width:100%">
+                <img src="img/Smile.png" style="width:100%">
+                <img src="img/Fun.png" style="width:100%">
+            </div>
+
+            <div class="w3-half">
+                <img src="img/Break.gif" style="width:100%">
+                <img src="img/Hate.png" style="width:100%">
+                <img src="img/Athea.png" style="width:100%">
+                <img src="img/LenDan.jpg" style="width:100%">
+            </div>
+            <!-- End photo grid -->
+        </div>
+        <!-- End Portfolio Section -->
+    </div>
+
+    <div class="w3-padding-64 w3-content w3-white" >
+        <!--    Start facebook For Developers, tạo bình luận-->
+        <div id="fb-root" ></div>
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+        <!--End facebook For Developers, tạo bình luận-->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+</div>
 
     <?php
     include 'layout/footer.php';

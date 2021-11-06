@@ -12,15 +12,6 @@
 <?php
 include 'layout/nav.php';
 ?>
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-        <a href="home.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-        <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-        <a href="image.html" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-        <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-    </div>
-</div>
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
